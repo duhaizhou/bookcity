@@ -117,7 +117,7 @@ CREATE TABLE ts_index_carousel(
 
 /**首页商品广告**/
 CREATE TABLE ts_index_product(
-	pid INT PRIMARY KEY AUTO_INCREMENT,
+  pid INT PRIMARY KEY AUTO_INCREMENT,
   title VARCHAR(64),
   details VARCHAR(128),
   pic VARCHAR(128),

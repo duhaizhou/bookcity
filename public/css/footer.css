@@ -1,0 +1,113 @@
+#footer{
+    background:#eaeaea;
+    padding-bottom:30px;
+}
+#footer .slogen{
+    margin-right: -23px;
+    position: relative;
+    height: 42px;
+    padding: 30px 0 30px 65px;
+    overflow: hidden;
+}
+#footer .slogen .item{
+    width: 292px;
+    float: left;
+    position: relative;
+    height: 42px;
+    line-height: 42px;
+    text-indent: 46px;
+    font-size: 18px;
+    font-weight: 700;
+    
+    color: #444;
+}
+#footer .slogen .item i {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 36px;
+    height: 42px;  
+    background-image: url(../img/ico_service.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+#footer .slogen .fore2 i{
+    background-position: 0 -43px;
+}
+#footer .slogen .fore3 i{
+    background-position: 0 -86px;
+}
+#footer .slogen .fore4 i{
+    background-position: 0 -129px;
+}
+#footer .help{
+    border-top:1px solid #dedede;
+    border-bottom:1px solid #dedede;
+
+}
+#footer .help .wrap{
+    margin-right:-140px;
+    padding:20px 0 20px 65px;
+}
+#footer .help dl{
+    float:left;
+    width:255px;
+    line-height:22px;
+}
+#footer dt{
+    padding-bottom: 6px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #777;
+    height: 22px;
+}
+#footer dd{
+    font-size: 12px;
+    color: #666;
+    height: 22px;
+    overflow: hidden;
+}
+#footer .copyright{
+    padding-top:18px;
+    text-align: center;
+}
+#footer .copyright .link p a,#footer .copyright .link p span{
+    font-size:12px;
+}
+#footer .split{
+    margin:0 10px;
+    color:#ccc;
+     
+}
+#footer .copyright .info{
+    padding: 10px 0;
+    line-height: 22px;
+    color: #999;
+}
+#footer .copyright .info a{
+    color:#999;
+}
+#footer .copyright .auth .auto_ico{
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 3px;
+    width: 103px;
+    height: 32px;
+    background-image: url(../img/ico_footer.png);
+}
+footer .copyright .auth .fore1{
+    background-position: -104px 0;
+}
+footer .copyright .auth .fore2{
+    background-position: 0 -33px;
+}
+footer .copyright .auth .fore3{
+    background-position: -104px -33px;
+}
+footer .copyright .auth .fore4{
+    background-position: 0 -66px;
+}
+footer .copyright .auth .fore5{
+    background-position: -104px -66px;
+}

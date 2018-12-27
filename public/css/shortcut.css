@@ -10,10 +10,10 @@
 }
 #shortcut  img{
     position: relative;
-    top:3px;
+    top:-3px;
     display: inline-block;
-    width:21px;
-    height:16px;
+    width:18px;
+    height:18px;
     padding-right: 2px;
 }
 #shortcut li{
@@ -70,17 +70,18 @@
     float:left;
     padding:0 8px;
 }
-#shortcut #ttbar-mycity .item a:hover{
+#shortcut #ttbar-mycity .item .selected {
+    background: #f30213;
+    color: #fff;
+}
+#shortcut #ttbar-mycity a:hover {
     background:#f4f4f4;
 }
 #shortcut #ttbar-serv .dd{
     left:-44px;
     width:130px;
 }
-#shortcut #ttbar-mycity .item .selected {
-    background: #f30213;
-    color: #fff;
-}
+
 #shortcut #ttbar-serv .dt{
     position:relative;
     padding-right:25px;

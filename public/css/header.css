@@ -182,6 +182,9 @@
     line-height:33px;
     color:#333;
 }
+#navitems a:hover{
+    color:#f30213;
+}
 .book_nav_sub_title {
     float: left;
     width: 70px;

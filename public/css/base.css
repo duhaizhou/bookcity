@@ -6,6 +6,14 @@ li{
 em, i, u {
     font-style: normal;
 }
+img{
+    border:0px;
+    vertical-align: middle;
+}
+img{
+    background:url(../img/lazyload.gif) no-repeat center center;
+    background-size:100% 100%;
+}
 body{
     font:12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
     color:#666;
@@ -79,106 +87,15 @@ a:hover{
     clear:both;
     visibility:hidden;
 }
-.container{
-    background-color:#f8f8f8;
+.p-price {
+    color: #fa2846;
 }
-
-.firstscreen{
-    margin-bottom:15px;
+.p-price del{
+    padding-left:5px;
+    color:#ddd;
 }
-.book_nav{
-    float:left;
-    width: 210px;
-    height: 1074px;
-    margin-bottom:15px;
-    background-color: #a48276;
-}
-.book_slider {
-    float:left;
-    width: 1000px;
-    height: 360px;
+.p-detail, .p-img, .p-market, .p-name, .p-price {
     overflow: hidden;
-}
-.mt {
-    padding-left: 10px;
-    line-height: 1;
-    padding-bottom: 10px;
-    height: 25px;
-    font-size: 24px;
-    font-weight: 700;
-    color: #333;
-}
-.book_discount{
-    width:1000px;
-    height:355px;
-    padding:15px 0 15px 10px;
-}
-.mc {
-    background: #fff;
-}
-.book_discount .list{
-    float:left;
-    width:990px;
-}
-.book_discount .p-item{
-    float:left;
-    width:166px;
-    height:244px;
-    padding:23px 16px;
-}
-.book_new{
-    float:left;
-    width:740px;
-    height:374px;
-    padding:0 0 15px 10px;
-}
-.book_rank{
-    float:left;
-    width:260px;
-    height:374px;
-    padding:0 0 15px 10px;
-}
-.book_rank .mc{
-    width:250px;
-    height:324px;
-}
-.book_new .mc{
-    width:730px;
-    height:324px;
-}
-.book_category{
-    width:600px;
-    height:672px;
-    margin-bottom:15px;
-}
-.book_category .mt{
-    padding-top:15px;
-    padding-right:10px;
-    color:#fff;
-}
-#book_category_1 .mt{
-    background-color:#74a900;
-}
-#book_category_2 .mt{
-    background-color:#e5c35a;
-}
-#book_category_3 .mt{
-    background-color:#deaa60;
-}
-#book_category_4 .mt{
-    background-color:#de7f5d;
-}
-#book_category_5 .mt{
-    background-color:#bd82cc;
-}
-#book_category_6 .mt{
-    background-color:#8679cb;
-}
-#book_category_7 .mt{
-    background-color:#74aadc;
-}
-#book_category_8 .mt{
-    background-color: #72cbd6;
 }
 
 

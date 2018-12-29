@@ -7,7 +7,7 @@ $(function(){
         success:function(res){
             $(res).replaceAll("#header");
             $("#logo").siblings().remove();
-            $("<p>欢迎登陆</p>").appendTo("header");
+            $("<p>欢迎注册</p>").appendTo("header");
             
         }
     });
@@ -26,5 +26,3 @@ $(function(){
     
     
 });
-
-
